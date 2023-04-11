@@ -1,0 +1,17 @@
+.react-multiple-carousel__arrow--left {
+  background-color: #5b38e3;
+  opacity: 0.7;
+}
+
+.react-multiple-carousel__arrow--left:hover {
+  background-color: #5b38e3;
+}
+
+.react-multiple-carousel__arrow--right {
+  background-color: #5b38e3;
+  opacity: 0.7;
+}
+
+.react-multiple-carousel__arrow--right:hover {
+  background-color: #5b38e3;
+}
