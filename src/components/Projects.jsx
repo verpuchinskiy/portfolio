@@ -68,6 +68,8 @@ const DescriptionHeader = styled.h3`
 
 const DescriptionText = styled.p``;
 
+const WebsiteLink = styled.a``;
+
 export const Projects = () => {
   const responsive = {
     superLargeDesktop: {
@@ -91,28 +93,41 @@ export const Projects = () => {
     <Container id="projects">
       <Header>Recent Projects</Header>
       <Carousel swipeable={true} infinite={true} responsive={responsive}>
-        <ProjectContainer>
-          <ProjectImg src="src/assets/project1.jpg" />
-          <Description>
-            <DescriptionHeader>Lorem, ipsum dolor.</DescriptionHeader>
-            <DescriptionText>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nam
-              harum eius eos. Eos quisquam inventore eveniet cumque, porro
-              optio.
-            </DescriptionText>
-          </Description>
-        </ProjectContainer>
-        <ProjectContainer>
-          <ProjectImg src="src/assets/project2.jpg" />
-          <Description>
-            <DescriptionHeader>Lorem, ipsum dolor.</DescriptionHeader>
-            <DescriptionText>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nam
-              harum eius eos. Eos quisquam inventore eveniet cumque, porro
-              optio.
-            </DescriptionText>
-          </Description>
-        </ProjectContainer>
+        <WebsiteLink
+          href="https://verpuchinskiy.github.io/cocktails/"
+          target="_blank"
+        >
+          <ProjectContainer>
+            <ProjectImg src="src/assets/project1.jpg" />
+            <Description>
+              <DescriptionHeader>Cocktails Website.</DescriptionHeader>
+              <DescriptionText>
+                A website (SPA) made with React using TheCocktailDB API. Allows
+                to get detailed information about hundreds of cocktails and
+                their ingredients, to sort cocktails by type and alcohol, to
+                search cocktails by name and ingredient.
+              </DescriptionText>
+            </Description>
+          </ProjectContainer>
+        </WebsiteLink>
+        <WebsiteLink
+          href="https://verpuchinskiy.github.io/nytbest/"
+          target="_blank"
+        >
+          <ProjectContainer>
+            <ProjectImg src="src/assets/project2.jpg" />
+            <Description>
+              <DescriptionHeader>NytBest Website.</DescriptionHeader>
+              <DescriptionText>
+                A website (SPA) made with React using New York Times Books API
+                and Google Books API. Shows rankings of bestsellers chosen by NY
+                Times assorted by categories with the ability to search list
+                history by date, search a book by author, title or isbn and
+                check top 1 book from each category in a single list.
+              </DescriptionText>
+            </Description>
+          </ProjectContainer>
+        </WebsiteLink>
         <ProjectContainer>
           <ProjectImg src="src/assets/project3.jpg" />
           <Description>

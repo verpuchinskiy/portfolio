@@ -103,7 +103,8 @@ export const About = () => {
           development. I have completed Front-End Engineer Career Path from
           Codecademy, React and Next.js courses on Udemy and achieved Front-End
           developer specialization by Meta.
-          <br /><br /> Currently, I am working on sample projects for the portfolio to
+          <br />
+          <br /> Currently, I am working on sample projects for the portfolio to
           showcase my abilities. Looking for a full-time position in a big
           company where I can drop the anchor and realize my creativity and
           endless striving for growth.
@@ -115,7 +116,7 @@ export const About = () => {
             <ExperienceDesc>Year of Non-stop Learning</ExperienceDesc>
           </ExperienceSection>
           <ExperienceSection>
-            <ExperienceNumber>0</ExperienceNumber>
+            <ExperienceNumber>2</ExperienceNumber>
             <ExperienceDesc>Portfolio Projects</ExperienceDesc>
           </ExperienceSection>
         </ExperienceBlock>
