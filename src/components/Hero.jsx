@@ -2,6 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import { headerFont, primaryColor, secondaryColor } from "../../variables";
+import MikeImg from "../assets/Mike_sm.png";
+import YellowSpotImg from "../assets/Circle.png";
+import CertificateImg from "../assets/Certificate.png";
+import OrangePatternImg from "../assets/OrangePattern.png";
+import CV from "../assets/CV_Verpuchinskiy.pdf";
 
 const Container = styled.div`
   height: calc(60vh + 80px);
@@ -134,8 +139,8 @@ const CertificateLink = styled.a``;
 export const Hero = () => {
   return (
     <Container id="home">
-      <OrangePatternImage src="src/assets/OrangePattern.png" />
-      <OrangePatternImage2 src="src/assets/OrangePattern.png" />
+      <OrangePatternImage src={OrangePatternImg} />
+      <OrangePatternImage2 src={OrangePatternImg} />
       <Left>
         <MainHeader>
           Hi<GraySpan>,</GraySpan>
@@ -147,19 +152,19 @@ export const Hero = () => {
           Frontend Developer with 9 years of design background. A perfectionist
           with an affection to creativity and diligence.
         </MainDescription>
-        <CVDownloadLink href="src/assets/CV_Verpuchinskiy.pdf" download>
+        <CVDownloadLink href={CV} download>
           Download my CV <FileDownloadIcon />
         </CVDownloadLink>
       </Left>
       <Right>
         <MainImageFrame>
-          <MainImage src="src/assets/Mike_sm.png" alt="Image of Mike" />
-          <YellowSpot src="src/assets/Circle.png" />
+          <MainImage src={MikeImg} alt="Image of Mike" />
+          <YellowSpot src={YellowSpotImg} />
           <CertificateLink
             href="https://coursera.org/share/c1f8c32a138efdb8c5606d7da96e1efc"
             target="_blank"
           >
-            <Certificate src="src/assets/Certificate.png" />
+            <Certificate src={CertificateImg} />
           </CertificateLink>
         </MainImageFrame>
       </Right>

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { headerFont, primaryColor, secondaryColor } from "../../variables";
+import BobImg from "../assets/Bob.jpeg";
 
 const Container = styled.div`
   text-align: center;
@@ -96,7 +97,7 @@ export const Testimonials = () => {
         <TestimonialAuthorPosition>
           CEO of Convince Marketing
         </TestimonialAuthorPosition>
-        <TestimonialAuthorImg src="src/assets/Bob.jpeg" />
+        <TestimonialAuthorImg src={BobImg} />
       </TestimonialWrapper>
     </Container>
   );

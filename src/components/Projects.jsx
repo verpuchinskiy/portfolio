@@ -4,6 +4,9 @@ import "react-multi-carousel/lib/styles.css";
 import "./carousel.css";
 import styled from "styled-components";
 import { headerFont } from "../../variables";
+import CocktailsImg from "../assets/project1.jpg";
+import NytbestImg from "../assets/project2.jpg";
+import FitFeetImg from "../assets/project3.jpg";
 
 const Container = styled.div`
   padding: 40px 0;
@@ -109,7 +112,7 @@ export const Projects = () => {
           target="_blank"
         >
           <ProjectContainer>
-            <ProjectImg src="src/assets/project1.jpg" />
+            <ProjectImg src={CocktailsImg} />
             <Description>
               <DescriptionHeader>Cocktails Website.</DescriptionHeader>
               <DescriptionText>
@@ -130,7 +133,7 @@ export const Projects = () => {
           target="_blank"
         >
           <ProjectContainer>
-            <ProjectImg src="src/assets/project2.jpg" />
+            <ProjectImg src={NytbestImg} />
             <Description>
               <DescriptionHeader>NytBest Website.</DescriptionHeader>
               <DescriptionText>
@@ -153,7 +156,7 @@ export const Projects = () => {
           target="_blank"
         >
           <ProjectContainer>
-            <ProjectImg src="src/assets/project3.jpg" />
+            <ProjectImg src={FitFeetImg} />
             <Description>
               <DescriptionHeader>
                 FitFeet Sneakers Landing Page.

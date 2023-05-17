@@ -1,7 +1,17 @@
-import { fontSize } from "@mui/system";
 import React from "react";
 import styled from "styled-components";
 import { headerFont, primaryColor, tertiaryColor } from "../../variables";
+import HtmlImg from "../assets/html.png";
+import CssImg from "../assets/css.png";
+import JSImg from "../assets/javascript.png";
+import ReactImg from "../assets/react.png";
+import NextImg from "../assets/nextjs.png";
+import NpmImg from "../assets/npm.png";
+import SassImg from "../assets/sass.png";
+import StyledImg from "../assets/styled.png";
+import RestImg from "../assets/rest.png";
+import UXImg from "../assets/uxui.png";
+import GitImg from "../assets/git.png";
 
 const Container = styled.div`
   background-color: ${primaryColor};
@@ -124,17 +134,17 @@ export const About = () => {
       <TechnologiesHeader>Technologies I Am Familiar With</TechnologiesHeader>
       <Wrapper2>
         <TechnologiesList>
-          <SingleTechnology src="src/assets/html.png" />
-          <SingleTechnology src="src/assets/css.png" />
-          <SingleTechnology src="src/assets/javascript.png" />
-          <SingleTechnology src="src/assets/react.png" />
-          <SingleTechnology src="src/assets/nextjs.png" />
-          <SingleTechnology src="src/assets/npm.png" />
-          <SingleTechnology src="src/assets/sass.png" />
-          <SingleTechnology src="src/assets/styled.png" />
-          <SingleTechnology src="src/assets/rest.png" />
-          <SingleTechnology src="src/assets/uxui.png" />
-          <SingleTechnology src="src/assets/git.png" />
+          <SingleTechnology src={HtmlImg} />
+          <SingleTechnology src={CssImg} />
+          <SingleTechnology src={JSImg} />
+          <SingleTechnology src={ReactImg} />
+          <SingleTechnology src={NextImg} />
+          <SingleTechnology src={NpmImg} />
+          <SingleTechnology src={SassImg} />
+          <SingleTechnology src={StyledImg} />
+          <SingleTechnology src={RestImg} />
+          <SingleTechnology src={UXImg} />
+          <SingleTechnology src={GitImg} />
         </TechnologiesList>
       </Wrapper2>
     </Container>
