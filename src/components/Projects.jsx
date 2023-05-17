@@ -66,9 +66,20 @@ const DescriptionHeader = styled.h3`
   margin-bottom: 10px;
 `;
 
-const DescriptionText = styled.p``;
+const DescriptionText = styled.p`
+  font-size: 0.8rem;
+`;
 
 const WebsiteLink = styled.a``;
+
+const HorizontalLine = styled.hr`
+  height: 1px;
+  border: none;
+  background-color: white;
+  opacity: 0.6;
+  width: 80%;
+  margin: 0 auto 10px;
+`;
 
 export const Projects = () => {
   const responsive = {
@@ -105,7 +116,11 @@ export const Projects = () => {
                 A website (SPA) made with React using TheCocktailDB API. Allows
                 to get detailed information about hundreds of cocktails and
                 their ingredients, to sort cocktails by type and alcohol, to
-                search cocktails by name and ingredient.
+                search cocktails by name and ingredient. <br />
+                <br />
+                <HorizontalLine />
+                <b>Libraries used:</b> React Router, Axios, Styled Components,
+                Material Icons
               </DescriptionText>
             </Description>
           </ProjectContainer>
@@ -124,32 +139,37 @@ export const Projects = () => {
                 Times assorted by categories with the ability to search list
                 history by date, search a book by author, title or isbn and
                 check top 1 book from each category in a single list.
+                <br />
+                <br />
+                <HorizontalLine />
+                <b>Libraries used:</b> React Router, Axios, Styled Components,
+                Material UI, React Datepicker, React Toastify
               </DescriptionText>
             </Description>
           </ProjectContainer>
         </WebsiteLink>
-        <ProjectContainer>
-          <ProjectImg src="src/assets/project3.jpg" />
-          <Description>
-            <DescriptionHeader>Lorem, ipsum dolor.</DescriptionHeader>
-            <DescriptionText>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nam
-              harum eius eos. Eos quisquam inventore eveniet cumque, porro
-              optio.
-            </DescriptionText>
-          </Description>
-        </ProjectContainer>
-        <ProjectContainer>
-          <ProjectImg src="src/assets/project4.jpeg" />
-          <Description>
-            <DescriptionHeader>Lorem, ipsum dolor.</DescriptionHeader>
-            <DescriptionText>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nam
-              harum eius eos. Eos quisquam inventore eveniet cumque, porro
-              optio.
-            </DescriptionText>
-          </Description>
-        </ProjectContainer>
+        <WebsiteLink
+          href="https://verpuchinskiy.github.io/fitfeet/"
+          target="_blank"
+        >
+          <ProjectContainer>
+            <ProjectImg src="src/assets/project3.jpg" />
+            <Description>
+              <DescriptionHeader>
+                FitFeet Sneakers Landing Page.
+              </DescriptionHeader>
+              <DescriptionText>
+                A landing page made with React for a fictional brand to showcase
+                my ability of working with CSS. I've implemented fullscreen
+                sections, animations and used sass for styling.
+                <br />
+                <br />
+                <HorizontalLine />
+                <b>Libraries used:</b> Animate.css, Material Icons
+              </DescriptionText>
+            </Description>
+          </ProjectContainer>
+        </WebsiteLink>
       </Carousel>
     </Container>
   );

@@ -116,7 +116,7 @@ export const About = () => {
             <ExperienceDesc>Year of Non-stop Learning</ExperienceDesc>
           </ExperienceSection>
           <ExperienceSection>
-            <ExperienceNumber>2</ExperienceNumber>
+            <ExperienceNumber>3</ExperienceNumber>
             <ExperienceDesc>Portfolio Projects</ExperienceDesc>
           </ExperienceSection>
         </ExperienceBlock>
@@ -131,6 +131,8 @@ export const About = () => {
           <SingleTechnology src="src/assets/nextjs.png" />
           <SingleTechnology src="src/assets/npm.png" />
           <SingleTechnology src="src/assets/sass.png" />
+          <SingleTechnology src="src/assets/styled.png" />
+          <SingleTechnology src="src/assets/rest.png" />
           <SingleTechnology src="src/assets/uxui.png" />
           <SingleTechnology src="src/assets/git.png" />
         </TechnologiesList>
