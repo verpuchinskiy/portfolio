@@ -7,6 +7,7 @@ import { headerFont } from "../../variables";
 import CocktailsImg from "../assets/project1.jpg";
 import NytbestImg from "../assets/project2.jpg";
 import FitFeetImg from "../assets/project3.jpg";
+import ScoopifyImg from "../assets/project4.jpg";
 
 const Container = styled.div`
   padding: 40px 0;
@@ -169,6 +170,30 @@ export const Projects = () => {
                 <br />
                 <HorizontalLine />
                 <b>Libraries used:</b> Animate.css, Material Icons
+              </DescriptionText>
+            </Description>
+          </ProjectContainer>
+        </WebsiteLink>
+        <WebsiteLink
+          href="https://scoopify-7kx97fymu-verpuchinskiy.vercel.app"
+          target="_blank"
+        >
+          <ProjectContainer>
+            <ProjectImg src={ScoopifyImg} />
+            <Description>
+              <DescriptionHeader>
+                Scoopify Online Store Sample.
+              </DescriptionHeader>
+              <DescriptionText>
+                A sample online store for a fictional ice cream brand made with
+                Next.js and fetching data from MongoDB. Adding products to
+                shopping cart is implemented with React Context. Styling is made
+                with sass.
+                <br />
+                <br />
+                <HorizontalLine />
+                <b>Libraries used:</b> Mongoose, Use-local-storage-state,
+                Material Icons
               </DescriptionText>
             </Description>
           </ProjectContainer>

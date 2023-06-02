@@ -126,7 +126,7 @@ export const About = () => {
             <ExperienceDesc>Year of Non-stop Learning</ExperienceDesc>
           </ExperienceSection>
           <ExperienceSection>
-            <ExperienceNumber>3</ExperienceNumber>
+            <ExperienceNumber>4</ExperienceNumber>
             <ExperienceDesc>Portfolio Projects</ExperienceDesc>
           </ExperienceSection>
         </ExperienceBlock>
